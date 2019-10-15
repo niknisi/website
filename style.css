@@ -12,21 +12,30 @@ body {
 }
 
 .p2 {
-  background-color: #98CA32;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  height: 300px;
-}
-
-.p3 {
   background-color: #559E54;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
   height: 500px;
+}
+
+.p3 {
+  background-color: #98CA32;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 500px;
+}
+
+.p4 {
+  background-color: #0A3409;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 300px;
 }
 
 .p1-font {
@@ -83,15 +92,47 @@ body {
   cursor: pointer;
 }
 
+.menu-aboutme{
+  float: left;
+  width: 50%;
+}
+
+.menu-aboutme-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.menu-aboutme-display{
+  display: table-cell;
+  width: 100%;
+  height: 500px;
+  vertical-align: middle;
+}
+
+.menu-aboutme-text{
+  font-family: 'Inconsolata', monospace;
+  color: #E6E6BA;
+  text-align: left;
+  font-size: 15pt;
+  padding: 10px;
+  margin-right: 20%;
+}
+
 .menu-project a {
   float: left;
   width: 25%;
+  height: 400px;
 }
 
 .menu-project-logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .menu-project-text {
